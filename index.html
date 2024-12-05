@@ -1,0 +1,73 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Konan?</title>
+       
+    <link rel="stylesheet" href="./css.css" />
+
+    <link rel="stylesheet" href="./main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <!---Animation-->
+    <script type="text/javascript" src="./Winwheel.js"></script>
+    <!----Wheel-->
+    <script src="./js.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <!---Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <header>
+      <h1>??מי כונן</h1>
+      <hr />
+    </header>
+    <main>
+      <!-- buttons -->
+      <div class="konanimDiv"></div>
+      <hr /><h2>סוכנים
+        </h2><br>
+      <div class="sohnim"><br>
+      </h2></div>
+      <h2 class="openJumpingWindow konanBtn">הקפץ חלון</h2>
+      <div class="popupContainer" id="popupContainer">
+        <div class="halonKofezPopup">
+          <img src="./imgs/Haipo-Kony-Yael16-750x1000.jpg" alt="" srcset="">
+          <button class="btnCloseHalonKofez konanBtn">סגור</button>
+        </div>
+      </div>
+      <hr />
+      <div class="lakohot"><h2>גיגנגנים
+      </h2>
+      <img src="./imgs/chibotero.png" alt="GIGANGEN">
+    </div>
+      <hr />
+      <!-- /buttons -->
+      <!-- wheel -->
+      <div class="wheel" id="canvasContainer">
+        <canvas id="myCanvas" width="500" height="500">
+          Canvas not supported, use another browser.
+        </canvas>
+
+        <!-- /wheel -->
+      </div>
+      <div class="btns">
+        <button class="startBtn btn" onClick="">Spin the Wheel</button>
+        <button class="resetBtn btn" onClick="">reset</button>
+      </div>
+    </main>
+    <footer>
+      <p>Ver 1.03 Lior.b</p>
+    </footer>
+  </body>
+</html>

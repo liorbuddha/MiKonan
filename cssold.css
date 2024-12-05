@@ -1,0 +1,109 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #191414; /* Dark background similar to Spotify */
+  color: #fff; /* White text color */
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #191414; /* Dark background similar to Spotify */
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  margin: 0;
+  font-weight: 700;
+  color: #1db954; /* Green accent color similar to Spotify */
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #282828; /* Dark separator similar to Spotify */
+  margin: 20px 0;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1db954; /* Green button color similar to Spotify */
+  color: #fff; /* White text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1ed760; /* Slightly lighter green on hover */
+}
+
+/* Popup */
+.popupContainer {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 999;
+}
+
+.halonKofezPopup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #282828; /* Dark background similar to Spotify */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Dark shadow similar to Spotify */
+}
+
+/* Wheel */
+.wheel {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#myCanvas {
+  border-radius: 50%; /* Make the canvas circular */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Dark shadow similar to Spotify */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #191414; /* Dark background similar to Spotify */
+  color: #fff; /* White text color */
+}
+
+/* Custom Styling */
+.konanimDiv {
+  text-align: center;
+}
+
+.sohnim, .lakohot {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sohnim h2, .lakohot h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff; /* White text color */
+}
+
+.lakohot img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Dark shadow similar to Spotify */
+}
